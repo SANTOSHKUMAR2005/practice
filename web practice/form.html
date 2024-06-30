@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input{
+            border-bottom: 2px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            background-color: chartreuse;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <form style="text-align: center;">
+        <fieldset style="background-color: chartreuse;">
+<h4 style="color: orangered;">Personal Ditalls</h4>
+        <label for="username"> Name :</label>
+        <input type="text" id="username" name="username" placeholder="username">
+        <br/>
+        <br/>
+        <label for="passward" name="passward">passward :</label>
+        <input type="password" id="passward" name="passward"  placeholder="Enter passward">
+        <br/>
+        <br/>
+        <label for="email" name="email address">e-mail :</label>
+        <input type="email" id="email" name="email address">
+        <br/>
+        <br/>
+        <label>Gender :</label>
+        <input type="radio" id="radio1" name="gender">
+        <label for="radio1" name="gender">Male</label>
+        <input type="radio" id="radio2" name="gender">
+        <label for="radio2" name="gender">Female</label>
+        <br/>
+        <label for="con" name="con">Contact =</label>
+        <input type="tel" id="con" name="con">
+        <br>
+        <br>
+        <h4 style="color: orangered;">Educational Qualification </h4>
+        <br/>
+        <label for="list1" name="degree">Degree : </label>
+            <select id="list1" name="degree" >
+                <option>select degree</option>
+                <option>PHD</option>
+                <option>undergraduate</option>
+                <option>entermediat</option>
+            </select>
+            <br/>
+            <br/>
+            <label for="list2" name="degree1">Engineering : </label>
+            <select id="list2" name="degree1" >
+                <option>PHD</option>
+                <option>undergraduate</option>
+                <option>entermediat</option>
+            </select>
+            <br/>
+            <br/>
+            <label for="hobbies">Hobbies :</label>
+            <input type="checkbox" id="chess" name="hobbies">
+            <label for="chess">Plaing chess</label>
+            <input type="checkbox" id="book" name="hobbies">
+            <label for="book">Reading books</label>
+            <br/>
+            <br/>
+            <h4><label for="address" style="color:orangered ;">Address</label></h4>
+            <br/>
+<textarea id="address" hight="50" width="200"></textarea>
+        <br/>
+        <label for="attach Resume">Attach Resume :</label>
+        <input type="file" id="attach Resume">
+        <br/>
+        <br/>
+<input type="submit" value="SUBMIT" style="background-color: coral; border-radius :5px; border: none; border-radius: 50%;" >
+</fieldset>
+    </form>
+    <br>
+    <br>
+    <br/>
+
+    <table >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+
+        </thead>
+        <tr>
+            <td>name</td>
+            <td>
+                <form >
+                    <input type="text" id="name">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Sex</td>
+            <td>
+                <input type="radio" id="male" name="gender" >
+                <label for="male" >Male</label>
+                <br/>
+                <input type="radio" id="female" name="gender" >
+                <label for="female" >female</label>
+            </td>
+        </tr>
+        <tr> 
+            <td>Eye color</td>
+            <td> <select name="color" id="color">
+                <option ></option>
+                <option>blue</option>
+                <option>skaiblue</option>
+                <option>red</option>
+                <option>black</option>
+                <option>yellow</option>
+            </select></td>
+        </tr>
+        </tr>
+        <tr>
+           
+
+    </table>
+</body>
+</html>

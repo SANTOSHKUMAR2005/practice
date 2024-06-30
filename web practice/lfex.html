@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cantainar{
+            border-style: solid;
+            border-width: 5px;
+            border-color: blue;
+          height: 600px;
+            background-color: cornflowerblue;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row; */
+            /* flex-direction: column-reverse; */
+            flex-direction: row-reverse;
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-grow: 1; */
+         /* justify-content:center; */
+        /* justify-content: space-around;  */
+        /* align-items:center;*/
+        /* flex-wrap: wrap;
+        align-content:stretch; */
+        } 
+        .box{
+            height: 100px;
+            width: 200px;}
+    
+    
+        #box1{ 
+            background-color: aqua;
+            /* order:100; */
+            /* flex-grow:5 ; */
+            /* flex-shrink: 4;  */
+            /* flex-basis: 400px; for dimention seting */
+            /* align-self: center; */
+        }
+        #box2{ background-color:red;
+        }
+          
+        #box3{ background-color: aquamarine;
+            /* order:-5;*/
+        }
+        #box4{ background-color: blueviolet;}
+           
+        #box5{ background-color:chocolate;}
+        </style>
+           
+      </head>
+<body>
+    <div class="cantainar">
+        <div class="box" id="box1"> hello</div>
+       <div class="box" id="box2 "> </div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        
+    </div>
+</body>
+</html>
