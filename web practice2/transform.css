@@ -1,0 +1,63 @@
+.div2{
+    height:500px ;
+    width:500px;
+    border-radius: 50%;
+    overflow: hidden;
+    display:block;
+    animation-name: santosh;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes santosh {
+  from {
+    /* transform: rotate(360deg); */
+    transform: translate(0px);
+    
+  }
+  to {
+    transform: translate(1000px);
+    
+  }
+}
+
+.div{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    transition-property:all;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+    position: center;
+    color: blue;
+    
+
+}
+.div:hover{
+     
+background-color:cadetblue;
+color: green;
+border-radius: 150px;
+transform: translate(500px,500px);
+
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    animation-name: image;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes image {
+    from {
+        transform: rotate(360deg);
+    }
+}
